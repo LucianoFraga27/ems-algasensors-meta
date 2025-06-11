@@ -1,5 +1,5 @@
 services:
-  algasensors-rabbitmq:
+  rabbitmq:
     image: rabbitmq:3-management
     restart: no
     ports:
@@ -9,8 +9,11 @@ services:
       RABBITMQ_DEFAULT_USER: rabbitmq
       RABBITMQ_DEFAULT_PASS: rabbitmq
     volumes:
-      - algasensors-rabbitmq:/var/lib/rabbitmq/
+      - rabbitmq:/var/lib/rabbitmq/
+      # Ao adicionar esse plugin estaremos adicionando um plugin que adiciona as mensagens de uma fila para outra
+      # Esse plugin é bom para mover as mensagens com erro depois para a fila novamente, supondo que seja um erro de código
+      - ./configs/rabbitmq/enabled_plugins:/etc/rabbitmq/enabled_plugins
 volumes:
-  algasensors-rabbitmq:
+  rabbitmq:
 # http://localhost:15672/
 # docker-compose up
