@@ -1,0 +1,44 @@
+Agora é sua vez de analisar os trade-offs do Teorema CAP em sistemas distribuídos!
+
+Abaixo, apresentamos dois cenários reais. Seu desafio é avaliar as consequências 
+de cada escolha arquitetural antes que a decisão seja tomada.
+
+Para cada cenário, responda:
+
+1) Se esse sistema fosse projetado para priorizar AP (Disponibilidade + Tolerância a Partições),
+quais seriam os impactos, as vantagens e desvantagens dessa escolha?
+
+2) Se, por outro lado, ele fosse projetado para priorizar CP (Consistência + Tolerância a Partições),
+quais seriam os impactos, as vantagens e desvantagens?
+
+Dica: Não existe resposta certa ou errada. O objetivo é que você exercite a análise dos trade-offs
+envolvidos e aprenda a tomar decisões arquiteturais baseadas nos requisitos do sistema.
+
+Se quiser se aprofundar ainda mais, escreva um pequeno design doc explicando sua decisão para um dos cenários.
+Você pode incluir a justificativa para escolher AP ou CP, o impacto dessa decisão, etc.
+
+Cenário 1: Sistema de Pagamentos
+Uma empresa desenvolve um sistema de pagamentos online com os seguintes microsserviços:
+
+Serviço de Processamento de Pagamentos: Recebe solicitações de pagamento e inicia a transação.
+Serviço de Saldo do Usuário: Mantém o saldo atualizado após cada transação.
+No momento, a equipe precisa decidir como lidar com falhas de comunicação entre esses serviços.
+
+Eles podem priorizar Disponibilidade (AP), garantindo que os pagamentos sejam sempre aceitos,
+mesmo que o serviço de saldo esteja inacessível.
+
+Ou podem priorizar Consistência (CP), garantindo que nenhuma transação ocorra sem que o saldo seja
+verificado com segurança, mesmo que isso signifique bloquear pagamentos temporariamente.
+
+Cenário 2: Sistema de E-commerce
+Uma plataforma de e-commerce precisa definir a estratégia para dois microsserviços críticos:
+
+Serviço de Carrinho de Compras: Permite que os clientes adicionem produtos ao carrinho e finalizem pedidos.
+Serviço de Estoque: Mantém a quantidade disponível de cada item no catálogo.
+O time de arquitetura precisa decidir o que fazer caso ocorra uma falha na comunicação entre esses dois serviços.
+
+Eles podem priorizar Disponibilidade (AP), permitindo que os clientes adicionem produtos ao carrinho e façam pedidos,
+mesmo que o serviço de estoque não esteja acessível no momento.
+
+Ou podem priorizar Consistência (CP), garantindo que cada pedido só seja processado se a quantidade exata dos produtos
+for confirmada no estoque, mesmo que isso possa impedir alguns clientes de concluir a compra temporariamente.

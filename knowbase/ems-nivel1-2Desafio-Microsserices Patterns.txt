@@ -1,0 +1,17 @@
+Agora que você teve uma introdução aos padrões de microsserviços,
+seu próximo passo é se familiarizar com os principais catálogos de padrões usados no mercado.
+
+O objetivo deste exercício não é você entender tudo em detalhes,
+mas sim navegar pelos catálogos e perceber como os padrões estão organizados,
+quais problemas eles resolvem e como são documentados.
+
+1) Acesse os principais catálogos de padrões citados na aula anterior.
+
+2) Escolha 2 ou 3 padrões que te chamaram a atenção. Não precisa entender tudo agora!
+Apenas anote o nome do padrão e qual problema ele tenta resolver (conforme descrito no catálogo).
+
+3) Reflita sobre esta pergunta: Algum desses padrões parece útil ou interessante para você? Por quê?
+
+Se quiser ir além, você pode tentar identificar padrões que já viu na prática, 
+seja no trabalho ou em estudos anteriores. Mas, se não souber responder agora,
+não tem problema! O importante é apenas se familiarizar com os catálogos.

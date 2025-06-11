@@ -1,0 +1,14 @@
+A arquitetura de software envolve decisões estratégicas para garantir que um sistema alcance os requisitos funcionais e não funcionais desejados.
+
+No entanto, como vimos, não existe uma definição única e rígida sobre o que é arquitetura de software.
+
+Tarefa
+1. Pense em um sistema ou aplicativo que você usa no dia a dia (pode ser um app de delivery, rede social, internet banking, etc).
+
+2. Quais características arquiteturais desse sistema podem ser importantes? Por exemplo: ele precisa ser rápido? Precisa ser escalável?
+Suportar muitos usuários ao mesmo tempo? Ser seguro? Funcionar offline? Há outras características que você considera importantes?
+
+Dica: Você não precisa saber como a arquitetura foi feita, 
+mas tente imaginar quais desafios arquiteturais os desenvolvedores desse sistema tiveram que considerar.
+
+Use seu portfólio de conhecimento e pesquise o que ainda não sabe, mas não se preocupe em ter a resposta "perfeita" neste momento.

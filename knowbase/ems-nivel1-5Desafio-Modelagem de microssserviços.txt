@@ -1,0 +1,32 @@
+Agora que você aprendeu sobre decomposição de microsserviços por capacidades de negócio
+e os princípios fundamentais para uma modelagem eficiente, é hora de colocar esse conhecimento em prática!
+
+Imagine que você foi contratado para modelar a arquitetura de uma livraria digital
+que deseja competir no mercado vendendo e-books de forma rápida e eficiente.
+
+Diferente de uma livraria tradicional, esse sistema precisa lidar com entrega instantânea
+e um sistema de afiliados que recompensa vendedores parceiros.
+
+A empresa quer construir um sistema baseado em microsserviços para garantir escalabilidade,
+autonomia dos times e resiliência.
+
+A livraria precisa suportar os seguintes processos:
+
+Catálogo de Livros: Gerenciamento dos livros digitais, incluindo descrições, preços e categorias.
+Carrinho de Compras: Permitir que os usuários adicionem livros ao carrinho e calculem o total da compra.
+Pagamentos: Processar pagamentos por cartão de crédito, boleto e Pix, garantindo a emissão de notas fiscais.
+Entrega Digital: Liberar acesso imediato ao livro digital após a confirmação do pagamento.
+Sistema de Afiliados: Permitir que vendedores parceiros ganhem comissões por cada venda realizada através de seus links.
+Suporte ao Cliente: Atender dúvidas e problemas relacionados a compras e acessos.
+Desenhe uma proposta inicial de microsserviços baseada nas capacidades de negócio.
+
+Quais seriam as capacidades principais do sistema?
+Quais seriam os microsserviços?
+Como organizá-los para manter baixa dependência entre eles?
+Como garantir autonomia dos times sem criar fragmentação excessiva?
+Como evitar os bad smells que você aprendeu?
+Não precisa escrever código. Apenas descreva quais serviços você criaria e explique suas decisões de modelagem com base nos princípios deste módulo.
+
+Se quiser, pode escrever um design doc explicando sua proposta.
+
+Bora modelar!

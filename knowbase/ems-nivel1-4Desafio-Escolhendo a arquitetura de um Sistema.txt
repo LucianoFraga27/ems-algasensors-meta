@@ -1,0 +1,23 @@
+Você foi contratado para projetar a arquitetura de um novo sistema de gestão de operações para uma empresa
+de logística que gerencia o transporte de cargas entre diferentes cidades.
+
+O sistema precisa lidar com o rastreamento de veículos em tempo real, controle de entregas e coletas,
+otimização de rotas e cálculo de fretes.
+
+Além disso, a empresa deseja oferecer um portal para clientes acompanharem o status de suas encomendas.
+
+O negócio está crescendo, mas a equipe de desenvolvimento ainda é pequena e não tem experiência com sistemas distribuídos.
+
+O orçamento inicial para a infraestrutura também é limitado, mas a empresa acredita que, no futuro, a demanda por escalabilidade pode aumentar.
+
+Diante desse cenário, sua tarefa é:
+
+1. Escolher um dos dois estilos arquiteturais: monolítico ou microsserviços.
+
+2. Justificar sua decisão considerando pelo menos três fatores, como escalabilidade, complexidade, manutenção,
+custo operacional, equipe disponível, entre outros.
+
+3. Analisar os trade-offs dessa escolha e como ela impactaria a evolução do sistema no futuro.
+
+Lembre-se de que não existe uma resposta única e correta. O importante é apresentar uma argumentação bem estruturada,
+considerando os desafios e benefícios de cada abordagem.
